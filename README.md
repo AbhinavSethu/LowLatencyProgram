@@ -16,7 +16,8 @@ Requires:
 - GCC 9+ or Clang
 - Linux with multicast support
 
-```bash
+## bash
+```
 g++ -O2 -std=c++17 main.cpp -o feed_handler
 ./feed_handler <iface_ip> <multicast_ip> <port> <is_multicast>
 
